@@ -1,5 +1,4 @@
 Flask 
 MySQL
-MySQLdb
 re
 gunicorn
