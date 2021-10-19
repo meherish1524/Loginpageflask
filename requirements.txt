@@ -1,5 +1,5 @@
 Flask 
 MySQL
-MySQLdb.cursors
+MySQLdb
 re
 gunicorn
