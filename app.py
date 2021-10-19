@@ -22,7 +22,7 @@ def login():
         username = request.form['username']
         password = request.form['password']
         cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
-        cursor.execute('SELECT * FROM accounts WHERE username = % s AND password = % s', (username, password))
+        cursor.execute('SELECT * FROM accounts WHERE username = % s AND pasword = % s', (username, password))
         account = cursor.fetchone()
         if account:
             session['loggedin'] = True
@@ -60,7 +60,7 @@ def register():
         elif not username or not password or not email:
             msg = 'Please fill out the form !'
         else:
-            cursor.execute('INSERT INTO accounts VALUES (NULL, % s, % s, % s)', (username, password, email, ))
+            cursor.execute('INSERT INTO accounts VALUES (NULL, % s, % s, % s)', (username, pasword, email, ))
             mysql.connection.commit()
             msg = 'You have successfully registered !'
     elif request.method == 'POST':
