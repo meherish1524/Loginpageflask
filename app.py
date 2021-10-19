@@ -11,7 +11,7 @@ app.secret_key = 'your secret key'
   
 app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
 app.config['MYSQL_USER'] = 'sql6444958'
-app.config['MYSQL_PASSWORD'] = 'DEJFyJCHIT
+app.config['MYSQL_PASSWORD'] = 'DEJFyJCHIT'
 app.config['MYSQL_DB'] = 'sql6444958'
   
 mysql = MySQL(app)
