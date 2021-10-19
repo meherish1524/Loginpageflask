@@ -7,8 +7,6 @@ import re
 app = Flask(__name__)
   
   
-app.secret_key = 'your secret key'
-  
 app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
 app.config['MYSQL_USER'] = 'sql6444958'
 app.config['MYSQL_PASSWORD'] = 'DEJFyJCHIT'
