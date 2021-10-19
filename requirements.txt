@@ -3,3 +3,4 @@ MySQL
 regex
 gunicorn
 mysql-connector-python
+flask_mysqldb
