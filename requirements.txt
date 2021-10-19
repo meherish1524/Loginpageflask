@@ -1,6 +1,6 @@
 Flask 
 MySQL
-Re
+re
 gunicorn
 mysql-connector-python
 mysql-python
