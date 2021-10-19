@@ -68,6 +68,6 @@ def register():
     elif request.method == 'POST':
         msg = 'Please fill out the form !'
     return render_template('register.html', msg = msg)
- if __name__ == '__main__':
-    app.debug=True
-    app.run()
+if __name__ == '__main__':
+  app.debug=True
+  app.run()
