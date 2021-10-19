@@ -3,4 +3,3 @@ MySQL
 regex
 gunicorn
 mysql-connector-python
-mysql-python
