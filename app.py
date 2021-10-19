@@ -3,10 +3,10 @@ from flask_mysqldb import MySQL
 import MySQLdb.cursors
 import re
   
-  
+
 app = Flask(__name__)
   
-  
+app.secret_key = '1524'  
 app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
 app.config['MYSQL_USER'] = 'sql6444958'
 app.config['MYSQL_PASSWORD'] = 'DEJFyJCHIT'
