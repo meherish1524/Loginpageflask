@@ -1,12 +1,9 @@
 
-			bogy{
-				background-image: url("bg.png");
-			}
 			.header{
 				padding: 5px 120px;
 				width: 160px;
 				height: 70px;
-				background-image: url("images/bg.png");
+				background-color: #66ff99;
 			}
 		
 			.border{
@@ -36,7 +33,7 @@
 			}
 				
 			::placeholder {
-				color: #FFFFFF;
+				color: #cccccc;
 				opacity: 1;
 				font-style: Fantasy;
 				font-weight: bold;
