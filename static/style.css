@@ -11,10 +11,10 @@
 				padding: 70px 60px;
 				width: 500px;
 				height: 600px;
-				border: 1px solid #236B8E;
+				border: 1px solid #e600e6;
 				border-radius: 0px;
 				background-image: url("images/bg.png");
-				background-color: #80002a;
+				background-color: #66ff99;
 			}
 
 			.btn {
@@ -36,7 +36,7 @@
 			::placeholder {
 				color: #FFFFFF;
 				opacity: 1;
-				font-style: oblique;
+				font-style: Fantasy;
 				font-weight: bold;
 			}
 
