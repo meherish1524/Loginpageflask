@@ -1,5 +1,5 @@
 
-
+			 background-image: url("images/bg.png");
 			.header{
 				padding: 5px 120px;
 				width: 160px;
@@ -28,7 +28,7 @@
 
 			.textbox{
 				padding: 10px 50px;
-				background-color: #236B8E;
+				background-color: #e6faff;
 				text-color: #d580ff;
 				border-radius: 10px;
 			}
@@ -41,7 +41,7 @@
 			}
 
 			.word{
-				color: #33cc33;
+				color: #ff4dff;
 				font-style: Cursive;
 				font-weight: bold;
 			}
