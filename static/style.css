@@ -2,33 +2,34 @@
 
 			.header{
 				padding: 5px 120px;
-				width: 150px;
+				width: 160px;
 				height: 70px;
+				background-image: url("images/bg.png");
 				background-color: #236B8E;
 			}
 		
 			.border{
-				padding: 80px 50px;
-				width: 400px;
-				height: 450px;
+				padding: 70px 60px;
+				width: 500px;
+				height: 600px;
 				border: 1px solid #236B8E;
 				border-radius: 0px;
 				background-color: #9AC0CD;
 			}
 
 			.btn {
-				padding: 10px 40px;
+				padding: 10px 50px;
 				background-color: #236B8E;
 				color: #FFFFFF;
-				font-style: oblique;
+				font-style: Fantasy;
 				font-weight: bold;
 				border-radius: 10px;
 			}
 
 			.textbox{
-				padding: 10px 40px;
+				padding: 10px 50px;
 				background-color: #236B8E;
-				text-color: #FFFFFF;
+				text-color: #d580ff;
 				border-radius: 10px;
 			}
 				
@@ -40,13 +41,13 @@
 			}
 
 			.word{
-				color: #FFFFFF;
-				font-style: oblique;
+				color: #33cc33;
+				font-style: Cursive;
 				font-weight: bold;
 			}
 
 			.bottom{
-				color: #236B8E;
-				font-style: oblique;
+				color: #ff3300;
+				font-style: Sans-serif;
 				font-weight: bold;
 			}
