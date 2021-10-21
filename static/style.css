@@ -1,5 +1,7 @@
 
-			 background-image: url("bg.png");
+			bogy{
+				background-image: url("bg.png");
+			}
 			.header{
 				padding: 5px 120px;
 				width: 160px;
@@ -19,7 +21,7 @@
 
 			.btn {
 				padding: 10px 50px;
-				background-color: #7575a3;
+				background-color: #ff0000;
 				color: #FFFFFF;
 				font-style: Fantasy;
 				font-weight: bold;
@@ -28,7 +30,7 @@
 
 			.textbox{
 				padding: 10px 50px;
-				background-color: #e6faff;
+				background-color: #0000b3;
 				text-color: #d580ff;
 				border-radius: 10px;
 			}
@@ -42,7 +44,7 @@
 
 			.word{
 				color: #ff4dff;
-				font-style: Cursive;
+				font-style: red Serif;
 				font-weight: bold;
 			}
 
